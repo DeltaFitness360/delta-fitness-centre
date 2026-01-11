@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: yellow;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #000;
+  border-bottom: 2px solid red;
+}
+
+nav a {
+  color: yellow;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: red;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #111;
+}
+
+.section {
+  padding: 40px 30px;
+}
+
+.trainer {
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+}
+
+.trainer img {
+  width: 200px;
+  border: 3px solid red;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #000;
+  border-top: 2px solid red;
+}
