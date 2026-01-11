@@ -1,54 +1,98 @@
+/* ===== Delta Fitness Centre Branding ===== */
+
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: black;
-  color: yellow;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
 }
 
+/* Header */
 header {
+  background: #000;
+  padding: 15px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 30px;
-  background-color: #000;
-  border-bottom: 2px solid red;
+  border-bottom: 3px solid #ffea00;
 }
 
+header img {
+  height: 65px;
+}
+
+/* Navigation */
 nav a {
-  color: yellow;
-  margin-left: 15px;
+  color: #ffea00;
+  margin-left: 20px;
   text-decoration: none;
   font-weight: bold;
 }
 
 nav a:hover {
-  color: red;
+  color: #ff0000;
 }
 
+/* Hero Section */
 .hero {
   text-align: center;
-  padding: 80px 20px;
-  background-color: #111;
+  padding: 100px 20px;
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+              url("images/IMG-20250701-WA0036.jpg") center/cover no-repeat;
 }
 
+.hero h1 {
+  font-size: 52px;
+  color: #ffea00;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 20px;
+  color: #fff;
+}
+
+/* Sections */
 .section {
-  padding: 40px 30px;
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: auto;
 }
 
+.section h2 {
+  color: #ffea00;
+  margin-bottom: 20px;
+  border-left: 5px solid #ff0000;
+  padding-left: 10px;
+}
+
+/* Trainers */
 .trainer {
   display: inline-block;
-  text-align: center;
+  width: 250px;
   margin: 20px;
+  text-align: center;
 }
 
 .trainer img {
-  width: 200px;
-  border: 3px solid red;
+  width: 100%;
+  border-radius: 10px;
+  border: 3px solid #ffea00;
 }
 
+/* Gallery */
+#gallery img {
+  width: 280px;
+  margin: 10px;
+  border-radius: 8px;
+  border: 2px solid #ffea00;
+}
+
+/* Footer */
 footer {
+  background: #111;
   text-align: center;
   padding: 20px;
-  background-color: #000;
-  border-top: 2px solid red;
+  border-top: 3px solid #ffea00;
 }
+
